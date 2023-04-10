@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Prompt";
+}
+
+body {
+    height: 100%;
+}
+
+#templates {
+    display: none;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a {
+    margin-left: 20px;
+}
+
+.sitename h1 {
+    font-size: 24px;
+}
+
+.slide {
+    clip-path: inset(0 0 0 0);
+}
+
+.slide-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.slide-main-content {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-light {
+    background-color: white;
+}
+
+.slide-dark {
+    background-color: #08080c;
+}
+
+.slide-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 108px;
+    color: white;
+}
+
+.title-jamac, .slide-dark .header .sitename-jamac {
+    color: #ff5500;
+}
+
+.slide-main .header .sitename h1 {
+    display: none;
+}
+
+.slide-dark .header * {
+    color: white;
+}
+
+.slide-light .header .sitename-jamac {
+    color: #ff5500;
+}
