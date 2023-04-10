@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500;600&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -34,6 +36,8 @@ body {
 
 .links a {
     margin-left: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .sitename h1 {
@@ -67,11 +71,36 @@ body {
     background-color: #08080c;
 }
 
-.slide-projects {
+.slide-supersquare {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 80px;
+}
+
+.slide-info h2 {
+    font-size: 48px;
+}
+
+.slide-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.slide-info p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.slide-info {
+    padding-left: 60px;
+    max-width: 500px;
+}
+
+.slide-icon {
+    max-width: 400px;
+    border-radius: 40px;
 }
 
 .title {
@@ -93,4 +122,12 @@ body {
 
 .slide-light .header .sitename-jamac {
     color: #ff5500;
+}
+
+.play-icon {
+    display: block;
+}
+
+.play-icon, .play-icon img {
+    height: 80px;
 }
