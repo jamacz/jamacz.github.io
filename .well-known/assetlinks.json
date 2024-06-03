@@ -2,6 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "package_name": "drp.screentime",
-    "sha256_cert_fingerprints": []
+    "sha256_cert_fingerprints": [
+      "30:7D:42:C3:03:06:92:11:CA:C2:E1:E6:3A:87:85:88:32:4C:85:8F:60:70:E5:5B:CB:FE:22:33:25:CB:E6:1E"
+    ]
   }
 }]
